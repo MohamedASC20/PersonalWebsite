@@ -31,88 +31,26 @@ a:hover{
     color: black;
     font-size: larger;
 }
-#am {
-    display: inline;
-    
-}
 
-#AboutMe{
-   
-   border:solid;
-   border-radius: 13px;
-   border-color: whitesmoke;
-   border-width: 2px;
-    display: flex;
-   flex-direction: column;
-    
-}
-
-#amImg {
-    float: left;
-    margin-left: 10px;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    
-   
-}
-
-#PersonalProjects{
-    display: flex;
-    flex-direction: column;
-
+#amImg{
+    border: solid;
+    border-radius: 1000px;
+    position: absolute;
+    left: 25px;
+    top: 25%;
+    width: 25%;
+    height: inherit;
  
-    margin-top: 20px;
-    clear: left;
-    border:solid;
-   border-radius: 13px;
-   border-color:whitesmoke;
-   border-width: 2px;
+   
+    
 }
-
-#skills{
-    margin-top: 20px;
-    border:solid;
-    border-radius: 13px;
-    border-color:whitesmoke;
-    border-width: 2px;
- 
+#skyline{
+    position: relative;
+    width: 100%;
 }
-
 #amText{
-    flex-direction: column;
+    position: absolute;
+    left: 25px;
+   top: 50%;
 }
-
-#rpsImg{
-    float: left;
-    margin-bottom: 25px;
-}
-#pk5{
-    clear: left;
-   
-}
-
-#pkImg{
-    clear: left;
-    float: left;
-     
-     margin-bottom: 25px;
-}
-#ws{
-    
-    clear: left;
-    margin-bottom: 55px;
-}
-#wsImg{
-    float: left;
-   
-}
-
-#contactMe{
-    margin-top: 20px;
-    border:solid;
-    border-radius: 13px;
-    border-color:whitesmoke;
-    border-width: 2px;
-}
-
 
