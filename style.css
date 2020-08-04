@@ -49,8 +49,9 @@ a:hover{
     width: 100%;
 }
 #amText{
-    position: absolute;
-    left: 25px;
-   top: 50%;
+     
+    left: 15px;
+    font-size: 35px;
+ 
 }
 
