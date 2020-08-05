@@ -7,13 +7,44 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id = 'tabs'>
+    <div class = 'tabs'>
         <span class = 'navTab' ><a href="index.html"> About me</a></span>
          <span class = 'navTab'> <a href="personalProjects.html"> Personal Projects</a></span>
+         <span class = 'navTab'> <a href="experience.html"> Experience</a></span>
           <span class="navTab"> <a href="skills.html"> Skills</a>  </span>  
            <span class="navTab"> <a href="contact.html"> Contact me</a>
            </span> 
         </div>
+        <h1>Get In Touch With Me!</h1>
+        <div class="container">
+            <form >        
+              <label for="fname">First Name</label>
+              <input type="text" id="fname" name="firstname" placeholder="Your name..">
+          
+              <label for="lname">Last Name</label>
+              <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+          
+              <label for="title">Title</label>
+              <select id="title" name="title">
+                <option value="Mr">Mr.</option>
+                <option value="Ms">Ms.</option>
+                <option value="Mrs">Mrs.</option>
+                <option value="Dr">Dr.</option>
+              </select>
+
+              <label for = 'email'>Email</label>
+              <input type = 'text' id ='email' name = 'email' placeholder="Your email">
+
+
+
+              <label for="message">Message</label>
+              <textarea id="message" name="message" placeholder="Type your message here..." style="height:200px"></textarea>
+          
+              <input type="submit" value="Submit" id = 'submitButton'>
+              <p id = 'mS'>Message Submitted!</p>
+          
+            </form>
+          </div>
         <div id = 'contactMe'>
             <h1><u><strong>Contact Me</strong></u></h1>
             <span id = "contacts">
@@ -22,6 +53,33 @@
         <a href = "https://mail.google.com/"><img src = "https://image.flaticon.com/icons/png/512/281/281769.png" width="100" > </a>
         </span>
         </div>
-    
+    <script src = 'script.js' defer></script>
+    <footer>
+        <p class = 'footer'>2020, Mohamed Drame. All Rights Reserved. <br> Site by Mohamed Drame</p>
+    </footer>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.17.1/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.2.0/firebase.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyBlwGxnzxAdwY9S3icbZfY540KSsenlXoo",
+    authDomain: "personalwebsite-ce7c8.firebaseapp.com",
+    databaseURL: "https://personalwebsite-ce7c8.firebaseio.com",
+    projectId: "personalwebsite-ce7c8",
+    storageBucket: "personalwebsite-ce7c8.appspot.com",
+    messagingSenderId: "772669351183",
+    appId: "1:772669351183:web:1c7fa50570ff01379f8a7a",
+    measurementId: "G-V0BM4D5RJW"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
 </body>
 </html>
+
